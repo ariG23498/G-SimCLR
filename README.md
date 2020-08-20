@@ -1,2 +1,6 @@
 # SimCLR_PseudoLabel
-This repository consists of the colab notebooks that would aid in the direction of providing pseudo labels to SimCLR.
+## Idea:
+1. Denoising Autoencoder
+2. Cluster the latent space embeddings of the training images.
+3. Use the clusters to batch data for SimCLR
+4. Evaluate vanilla SimCLR and our approach.
