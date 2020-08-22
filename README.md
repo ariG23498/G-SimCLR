@@ -1,6 +1,6 @@
 # G-SimCLR : Self-Supervised Contrastive Learning with Guided Projection via Pseudo Labelling
 
-This code provides a Tensorflow implementation and pretrained models for **G-SimCLR** (Guided-SimCLR), as described in the paper [G-SimCLR : Self-Supervised Contrastive Learningwith Guided Projection via Pseudo Labelling]() by Souradip Chakraborty, Aritra Roy Gosthipaty and Sayak Paul.
+This code provides a TensorFlow implementation and pretrained models for **G-SimCLR** (Guided-SimCLR), as described in the paper [G-SimCLR : Self-Supervised Contrastive Learningwith Guided Projection via Pseudo Labelling]() by Souradip Chakraborty, Aritra Roy Gosthipaty and Sayak Paul.
 
 ## Abstract:
 
@@ -66,7 +66,7 @@ Loss (*NT-Xent*) curves as obtained from the G-SimCLR training with the CIFAR10 
 
 ## Pretrained Weights:
 
-[Place Holder]
+To be updated 
 
 ## Results Reported:
 
