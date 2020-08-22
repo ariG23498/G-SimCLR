@@ -1,4 +1,4 @@
-G-SimCLR
+# G-SimCLR
 
 ## Abstract:
 
