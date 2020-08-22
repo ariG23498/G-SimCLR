@@ -91,15 +91,7 @@ To be updated
 |         G-SimCLR (ours)         	|   **43.1**   	|        **56**       	|
 
 where, 
-$$
-\begin{itemize}
-    \item \textbf{P1} denotes the feature backbone network + the entire non-linear projection head - its final layer
-    \item \textbf{P2} denotes the feature backbone network + the entire non-linear projection head - its final two layers
-    \item \textbf{P3} denotes the feature backbone network only
-\end{itemize}
-$$
 
-
-
-
-
+- **P1** denotes the feature backbone network + the entire non-linear projection head - its final layer
+- **P2** denotes the feature backbone network + the entire non-linear projection head - its final two layers
+- **P3** denotes the feature backbone network only
