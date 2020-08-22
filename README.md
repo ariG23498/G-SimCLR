@@ -18,8 +18,8 @@ In this work, we propose that, with the normalized temperature-scaled cross-entr
 
 ## Architectures used:
 
-1. [ResNet20](https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer) used for CIFAR10.
-2. [ResNet50](https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer) used for ImageNet subset.
+1. [ResNet20](https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer/blob/master/zoo/resnet/resnet_cifar10.py) used for CIFAR10.
+2. [ResNet50](https://keras.io/api/applications/resnet/) used for ImageNet subset.
 3. Denoising Autoencoder built from scratch.
 
 ## Folder Structure:
@@ -72,23 +72,23 @@ To be updated
 
 ### Linear Evaluation
 
-|                                 |      | CIFAR 10  | Imagenet Subset |
-| :-----------------------------: | ---- | --------- | --------------- |
-|        Fully supervised         |      | 73.62     | 67.6            |
-| SimCLR with minor modifications | P1   | 37.69     | 52.8            |
-|                                 | P2   | 39.4      | 48.4            |
-|                                 | P3   | 39.92     | 52.4            |
-|         G-SimCLR (ours)         | P1   | **38.15** | **56.4**        |
-|                                 | P2   | **41.01** | **56.8**        |
-|                                 | P3   | **40.5**  | **60.0**        |
+|                                 	|    	| CIFAR 10 	| Imagenet Subset 	|
+|:-------------------------------:	|:--:	|:--------:	|:---------------:	|
+|         Fully supervised        	|    	|   73.62  	|       67.6      	|
+|                                 	| P1 	|   37.69  	|       52.8      	|
+| SimCLR with minor modifications 	| P2 	|   39.4   	|       48.4      	|
+|                                 	| P3 	|   39.92  	|       52.4      	|
+|                                 	| P1 	|   **38.15**  	|       **56.4**      	|
+|         G-SimCLR (ours)         	| P2 	|   **41.01**  	|       **56.8**      	|
+|                                 	| P3 	|   **40.5**   	|        **60**       	|
 
 ### Fine-tuning (10% labeled data)
 
-|                                 | CIFAR 10 | Imagenet Subset |
-| ------------------------------- | -------- | --------------- |
-| Fully supervised                | 73.62    | 67.6            |
-| SimCLR with minor modifications | 42.21    | 49.2            |
-| G-SimCLR (ours)                 | **43.1** | **56.0**        |
+|                                 	| CIFAR 10 	| Imagenet Subset 	|
+|---------------------------------	|:--------:	|:---------------:	|
+|         Fully supervised        	|   73.62  	|       67.6      	|
+| SimCLR with minor modifications 	|   42.21  	|       49.2      	|
+|         G-SimCLR (ours)         	|   **43.1**   	|        **56**       	|
 
 
 
