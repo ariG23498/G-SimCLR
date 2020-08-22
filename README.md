@@ -2,6 +2,8 @@
 
 This code provides a TensorFlow implementation and pretrained models for **G-SimCLR** (Guided-SimCLR), as described in the paper [G-SimCLR : Self-Supervised Contrastive Learning with Guided Projection via Pseudo Labelling]() by Souradip Chakraborty, Aritra Roy Gosthipaty and Sayak Paul.
 
+<div align="center"><img src="https://github.com/ariG23498/SimCLR_PseudoLabel/blob/master/Assets/Images/Methodology.png"></img></div>
+
 ## Abstract:
 
 In the realms of computer vision, deep neural networks have made their mark. It is noticed that deep models often perform better in a supervised setting with a large amount of labeled data. The representations learned with supervision are not only of high quality but also helps the model in enhancing its accuracy. However, the collection and annotation of a large dataset is extremely expensive and time-consuming. To avoid the same there has been a lot of research going on in the field of unsupervised visual representation learning. 
@@ -62,7 +64,7 @@ In this work, we propose that, with the normalized temperature-scaled cross-entr
 
 Loss (*NT-Xent*) curves as obtained from the G-SimCLR training with the CIFAR10 and ImageNet Subset datasets respectively.
 
-![Loss Curve](https://github.com/ariG23498/SimCLR_PseudoLabel/blob/master/Assets/Images/Loss_Curves.png)
+<div align="center"><img src="https://github.com/ariG23498/SimCLR_PseudoLabel/blob/master/Assets/Images/Loss_Curves.png"></img></div>
 
 ## Pretrained Weights:
 
