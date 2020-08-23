@@ -68,7 +68,8 @@ Loss (*NT-Xent*) curves as obtained from the G-SimCLR training with the CIFAR10 
 
 ## Pretrained Weights:
 
-To be updated 
+* [Model Weights (trained on ImageNet Subset)](https://github.com/ariG23498/G-SimCLR/releases/tag/v3.0)
+* [Model Weights (trained on CIFAR10)](https://github.com/ariG23498/G-SimCLR/releases/tag/v2.0)
 
 ## Results Reported:
 
