@@ -1,8 +1,8 @@
 # G-SimCLR: Self-Supervised Contrastive Learning with Guided Projection via Pseudo Labelling
 
-This code provides a TensorFlow implementation and pretrained models for **G-SimCLR** (Guided-SimCLR), as described in the paper [G-SimCLR: Self-Supervised Contrastive Learning with Guided Projection via Pseudo Labelling] by Souradip Chakraborty, Aritra Roy Gosthipaty and Sayak Paul <sup>*</sup>.
+This code provides a TensorFlow implementation and pretrained models for **G-SimCLR** (Guided-SimCLR), as described in the paper [G-SimCLR: Self-Supervised Contrastive Learning with Guided Projection via Pseudo Labelling] by Souradip Chakraborty<sup>\*</sup>, Aritra Roy Gosthipaty<sup>\*</sup> and Sayak Paul<sup>\*</sup>.
 
-<sup>*</sup> Equal contribution.
+<sup>\*</sup>Equal contribution.
 
 <div align="center"><img src="https://github.com/ariG23498/SimCLR_PseudoLabel/blob/master/Assets/Images/Methodology.png" width="650"></img></div>
 
