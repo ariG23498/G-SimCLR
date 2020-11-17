@@ -6,7 +6,7 @@ Official TensorFlow implementation of **G-SimCLR** (Guided-SimCLR), as described
 
 <div align="center"><img src="https://github.com/ariG23498/SimCLR_PseudoLabel/blob/master/Assets/Images/Methodology.png" width="650"></img></div>
 
-*The paper is accepted at [ICDM 2020](http://icdm2020.bigke.org/) for the [Deep Learning for Knowledge Transfer (DLKT)](https://fuzhenzhuang.github.io/DLKT2020/index.html) workshop.* 
+*The paper is accepted at [ICDM 2020](http://icdm2020.bigke.org/) for the [Deep Learning for Knowledge Transfer (DLKT)](https://fuzhenzhuang.github.io/DLKT2020/index.html) workshop.* A presentation deck is available [here](https://github.com/ariG23498/G-SimCLR/blob/master/Assets/Deck/G-SimCLR.pdf). 
 
 ## Abstract:
 
